@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
     info.each do |trait, name|
       name.each do |pigeon|
         pigeon_list[pigeon][category.to_sym] << trait.to_s
-        binding.pry
       end
     end
   end
